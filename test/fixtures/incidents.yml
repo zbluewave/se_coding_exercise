@@ -1,0 +1,18 @@
+one:
+  id: 1
+  complaint_type: complaint_type_1
+  status: status_1
+  street: 1st street
+  zip: 10001
+two:
+  id: 2
+  complaint_type: complaint_type_2
+  status: status_2
+  street: 2nd street
+  zip: 10002
+three:
+  id: 3
+  complaint_type: complaint_type_1
+  status: status_2
+  street: 3st street
+  zip: 10003

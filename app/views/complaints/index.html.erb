@@ -3,26 +3,26 @@
   <form class="form-inline">
     <div class="form-group">
       <label for="complaint_type">Complaint Type</label>
-      <select class="form-control">
-        <option>Select One --></option>
+      <select class="form-control" name="complaint_type">
+        <option value="">Select One --></option>
       </select>
     </div>
     <div class="form-group">
-      <label for="complaint_type">
+      <label for="street">
         Street</label>
-      <input type="text" class="form-control">
+      <input type="text" class="form-control" name="street">
     </div>
     <div class="form-group">
-      <label for="complaint_type">
+      <label for="status">
         Status</label>
-      <select class="form-control">
-        <option>Select One --></option>
+      <select class="form-control" name="status">
+        <option value="">Select One --></option>
       </select>
     </div>
     <div class="form-group">
-      <label for="complaint_type">
+      <label for="zip">
         Zip</label>
-      <input type="text" class="form-control">
+      <input type="text" class="form-control" name="zip">
     </div>
 
     <button type="submit" class="btn btn-default">Search</button>
@@ -37,7 +37,7 @@
       <td>Status</td>
       <td>Zip</td>
     </th>
-    <tbody>
+    <tbody id="result-display">
     <tr>
     </tr>
     </tbody>
